@@ -9,6 +9,17 @@ struct Color4{
     {}
     Color4():
     r(0.0f),g(0.0f),b(0.0f),a(1.0f){}
+    Color4 operator*(const float k){
+        return Color4(r*k,g*k,b*k);
+    }
+    Color4 operator*(const float k) const 
+    {
+        return Color4(r*k,g*k,b*k);
+    }
+    Color4 operator+(const Color4 & o)
+    {
+        return Color4(r+o.r,g+o.g,b+o.b);
+    }
     float r,g,b,a;
 };
 
@@ -18,12 +29,22 @@ struct Vector3{
     x(_x),y(_y),z(_z){}
     Vector3<Dtype>():
     x(0.0f),y(0.0f),z(0.0f){}
-    void normalize()
+    Vector3<Dtype> normalize() const
+    {
+        Vector3<Dtype > ans(*this);
+        Dtype len = sqrt(x*x+y*y+z*z);
+        ans.x /= len;
+        ans.y /= len;
+        ans.z /= len;
+        return ans; 
+    }
+    Vector3 <Dtype> normalize()
     {
         Dtype len = sqrt(x*x+y*y+z*z);
         this->x /= len;
         this->y /= len;
         this->z /= len;
+        return *this;
     }
     Dtype x,y,z;
 };
@@ -61,6 +82,7 @@ struct Surface{
     }
     Vector3 <Dtype> _pos;
     Vector3 <Dtype> _normal;
+    Color4 _color;
 
 };
 
@@ -112,6 +134,7 @@ class Sphere : public TracerObject<Dtype>{
         return false;
     sur._pos = origin + mint * dir;
     sur._normal = sur._pos - this->_pos;
+    sur._color = this->_base_color;
     return true;
 
 

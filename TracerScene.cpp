@@ -6,7 +6,7 @@ TracerView::TracerView(const int height ,const int width,
 const float focal_length):
 _image_height(height),_image_width(width),_scene(nullptr),_image_data(nullptr),
 _focal_length(focal_length),_left(-0.5f),_right(0.5f),
-_upper(0.5f),_bottom(-0.5f)
+_upper(0.5f),_bottom(-0.5f),_shading_model(nullptr)
 {
     _pos = Vector3<float>(0,0,1.0f);
     _ray_dir.clear();
@@ -36,10 +36,35 @@ void TracerView::setScene(TracerScene * scene)
 
 }
 
+void TracerView::setShadingModel(BaseShadingModel *model)
+{
+    if(this->_shading_model != nullptr)
+    {
+        ;
+    }
+    this->_shading_model = model;
+
+}
+Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>& view_pos)
+{
+    Color4 ans(0.0f,0.0f,0.0f);
+    int len = this->_scene->getLightListLength();
+    for(int i = 0;i<len;++i)
+    {
+        const Light * light_ptr = this->_scene->getLight(i);
+       ans = ans + this->_shading_model->Shading(*light_ptr,sur,view_pos);
+    }
+    return ans;
+}
 void TracerView::render()
 {
     Vector3 <float > view_pos = _pos + Vector3<float>(0,0,_focal_length);
     _image_data =  new Color4[_image_height*_image_width];
+    if(this->_shading_model == nullptr)
+    {
+        LOG("shading model null ptr\n");
+        return ;
+    }
     if(this->_scene  == nullptr)
     {
         LOG("scene null ptr\n");
@@ -57,10 +82,9 @@ void TracerView::render()
                 Surface <float> res ;
                 if(obj->intersection(view_pos,dir,res))
                 {
-                    LOG("intersect in %d %d \n",i,j);
+                  //  LOG("intersect in %d %d \n",i,j);
                     //todo 
-                    _image_data[i*_image_width + j] = obj->getBaseColor();
-
+                    _image_data[i*_image_width + j] = compute_pixel(res,view_pos);
                 }
                 //LOG("not intersect in %d %d \n",i,j);
             }
@@ -99,9 +123,24 @@ const TracerObject<float> * TracerScene::getObject(int index)
         return nullptr;
     return _object_list[index];
 }
+const Light * TracerScene::getLight(int index)
+{
+    if(index >= _light_list.size())
+        return nullptr;
+    return _light_list[index];
+}
 
 int TracerScene::getObjectListLength()
 {
     return _object_list.size();
 }
+int TracerScene::getLightListLength()
+{
+    return _light_list.size();
+}
+int TracerScene::addLight(Light * light)
+{
+    this->_light_list.push_back(light);
+}
+
 

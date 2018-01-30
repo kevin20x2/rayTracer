@@ -35,9 +35,11 @@
                     "isGenerated": false,
                     "language": "CXX",
                     "sources": [
-                      "main.cpp",
                       "BaseObject.cpp",
-                      "TracerScene.cpp"
+                      "Light.cpp",
+                      "ShadingModel.cpp",
+                      "TracerScene.cpp",
+                      "main.cpp"
                     ]
                   }
                 ],
@@ -54,7 +56,7 @@
         ]
       }
     ],
-    "cookie": "0.9044496737861185",
+    "cookie": "0.595618386901194",
     "inReplyTo": "codemodel",
     "type": "reply"
   }
