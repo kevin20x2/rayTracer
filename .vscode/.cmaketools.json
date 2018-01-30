@@ -1,0 +1,61 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "C:/code/ray_tracer/build",
+            "name": "RayTracer",
+            "sourceDirectory": "C:/code/ray_tracer",
+            "targets": [
+              {
+                "artifacts": [
+                  "C:/code/ray_tracer/build/RayTracer.exe",
+                  "C:/code/ray_tracer/build/libRayTracer.dll.a",
+                  "C:/code/ray_tracer/build/RayTracer.pdb"
+                ],
+                "buildDirectory": "C:/code/ray_tracer/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "C:/code/ray_tracer"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp",
+                      "BaseObject.cpp",
+                      "TracerScene.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "RayTracer.exe",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+                "linkerLanguage": "CXX",
+                "name": "RayTracer",
+                "sourceDirectory": "C:/code/ray_tracer",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.9615604343360051",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

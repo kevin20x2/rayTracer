@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/code/ray_tracer/build",
+  "command": "C:/MinGW/bin/c++.exe   @CMakeFiles/RayTracer.dir/includes_CXX.rsp -g   -o CMakeFiles/RayTracer.dir/main.cpp.obj -c C:/code/ray_tracer/main.cpp",
+  "file": "C:/code/ray_tracer/main.cpp"
+},
+{
+  "directory": "C:/code/ray_tracer/build",
+  "command": "C:/MinGW/bin/c++.exe   @CMakeFiles/RayTracer.dir/includes_CXX.rsp -g   -o CMakeFiles/RayTracer.dir/BaseObject.cpp.obj -c C:/code/ray_tracer/BaseObject.cpp",
+  "file": "C:/code/ray_tracer/BaseObject.cpp"
+},
+{
+  "directory": "C:/code/ray_tracer/build",
+  "command": "C:/MinGW/bin/c++.exe   @CMakeFiles/RayTracer.dir/includes_CXX.rsp -g   -o CMakeFiles/RayTracer.dir/TracerScene.cpp.obj -c C:/code/ray_tracer/TracerScene.cpp",
+  "file": "C:/code/ray_tracer/TracerScene.cpp"
+}
+]

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/ray_tracer/BaseObject.hpp
+
+D:/code/ray_tracer/TracerScene.h
+iostream
+-
+BaseObject.hpp
+D:/code/ray_tracer/BaseObject.hpp
+
+D:/code/ray_tracer/main.cpp
+iostream
+-
+TracerScene.h
+D:/code/ray_tracer/TracerScene.h
+

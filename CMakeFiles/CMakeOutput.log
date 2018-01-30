@@ -1,0 +1,1778 @@
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/code/ray_tracer/CMakeFiles/3.10.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/code/ray_tracer/CMakeFiles/3.10.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b69c2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:11。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b69c2.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b69c2.dir\Debug\cmTC_b69c2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b69c2.dir\Debug\cmTC_b69c2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b69c2.dir\Debug\\" /Fd"cmTC_b69c2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b69c2.dir\Debug\\" /Fd"cmTC_b69c2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_b69c2.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_b69c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_b69c2.dll.a" /MACHINE:X86 /SAFESEH cmTC_b69c2.dir\Debug\testCCompiler.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  cmTC_b69c2.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_b69c2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b69c2.dir\Debug\cmTC_b69c2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b69c2.dir\Debug\cmTC_b69c2.tlog\cmTC_b69c2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b69c2.vcxproj]
+
+    11 个警告
+    0 个错误
+
+已用时间 00:00:02.30
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b6da5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:14。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b6da5.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6da5.dir\Debug\\" /Fd"cmTC_b6da5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6da5.dir\Debug\\" /Fd"cmTC_b6da5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_b6da5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_b6da5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_b6da5.dll.a" /MACHINE:X86 /SAFESEH  -v cmTC_b6da5.dir\Debug\CMakeCCompilerABI.obj
+LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]
+  cmTC_b6da5.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_b6da5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\cmTC_b6da5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]
+
+    2 个警告
+    0 个错误
+
+已用时间 00:00:01.71
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b6da5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"]
+  ignore line: [Microsoft (R) 生成引擎版本 14.0.25420.1]
+  ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+  ignore line: []
+  ignore line: [生成启动时间为 2018/1/29 11:12:14。]
+  ignore line: [节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标)。]
+  ignore line: [PrepareForBuild:]
+  ignore line: [  正在创建目录“cmTC_b6da5.dir\Debug\”。]
+  ignore line: [  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。]
+  ignore line: [  正在创建目录“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\”。]
+  ignore line: [InitializeBuildStatus:]
+  ignore line: [  正在创建“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+  ignore line: [ClCompile:]
+  ignore line: [  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6da5.dir\Debug\\" /Fd"cmTC_b6da5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
+  ignore line: [  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版]
+  ignore line: [  版权所有(C) Microsoft Corporation。保留所有权利。]
+  ignore line: [  ]
+  ignore line: [  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6da5.dir\Debug\\" /Fd"cmTC_b6da5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
+  ignore line: [  ]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]]
+  ignore line: [  CMakeCCompilerABI.c]
+  ignore line: [Link:]
+  ignore line: [  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_b6da5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_b6da5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_b6da5.dll.a" /MACHINE:X86 /SAFESEH  -v cmTC_b6da5.dir\Debug\CMakeCCompilerABI.obj]
+  ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]]
+  ignore line: [  cmTC_b6da5.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_b6da5.exe]
+  ignore line: [FinalizeBuildStatus:]
+  ignore line: [  正在删除文件“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\unsuccessfulbuild”。]
+  ignore line: [  正在对“cmTC_b6da5.dir\Debug\cmTC_b6da5.tlog\cmTC_b6da5.lastbuildstate”执行 Touch 任务。]
+  ignore line: [已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标)的操作。]
+  ignore line: []
+  ignore line: [已成功生成。]
+  ignore line: []
+  ignore line: [“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标) (1) ->]
+  ignore line: [(ClCompile 目标) -> ]
+  ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]]
+  ignore line: []
+  ignore line: []
+  ignore line: [“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj”(默认目标) (1) ->]
+  ignore line: [(Link 目标) -> ]
+  ignore line: [  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_b6da5.vcxproj]]
+  ignore line: []
+  ignore line: [    2 个警告]
+  ignore line: [    0 个错误]
+  ignore line: []
+  ignore line: [已用时间 00:00:01.71]
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bdcc3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:16。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bdcc3.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bdcc3.dir\Debug\cmTC_bdcc3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bdcc3.dir\Debug\cmTC_bdcc3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdcc3.dir\Debug\\" /Fd"cmTC_bdcc3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g -std=c11 D:\code\ray_tracer\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdcc3.dir\Debug\\" /Fd"cmTC_bdcc3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g -std=c11 D:\code\ray_tracer\CMakeFiles\feature_tests.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-std=c11” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_bdcc3.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_bdcc3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_bdcc3.dll.a" /MACHINE:X86 /SAFESEH cmTC_bdcc3.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  cmTC_bdcc3.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_bdcc3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_bdcc3.dir\Debug\cmTC_bdcc3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_bdcc3.dir\Debug\cmTC_bdcc3.tlog\cmTC_bdcc3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  cl : 命令行 warning D9002: 忽略未知选项“-std=c11” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_bdcc3.vcxproj]
+
+    12 个警告
+    0 个错误
+
+已用时间 00:00:01.42
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8dcb1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:18。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8dcb1.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8dcb1.dir\Debug\cmTC_8dcb1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8dcb1.dir\Debug\cmTC_8dcb1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dcb1.dir\Debug\\" /Fd"cmTC_8dcb1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g -std=c99 D:\code\ray_tracer\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dcb1.dir\Debug\\" /Fd"cmTC_8dcb1.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g -std=c99 D:\code\ray_tracer\CMakeFiles\feature_tests.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-std=c99” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_8dcb1.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_8dcb1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_8dcb1.dll.a" /MACHINE:X86 /SAFESEH cmTC_8dcb1.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  cmTC_8dcb1.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_8dcb1.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8dcb1.dir\Debug\cmTC_8dcb1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8dcb1.dir\Debug\cmTC_8dcb1.tlog\cmTC_8dcb1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  cl : 命令行 warning D9002: 忽略未知选项“-std=c99” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_8dcb1.vcxproj]
+
+    12 个警告
+    0 个错误
+
+已用时间 00:00:01.52
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9d0e3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:20。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9d0e3.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9d0e3.dir\Debug\cmTC_9d0e3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9d0e3.dir\Debug\cmTC_9d0e3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d0e3.dir\Debug\\" /Fd"cmTC_9d0e3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g -std=c90 D:\code\ray_tracer\CMakeFiles\feature_tests.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d0e3.dir\Debug\\" /Fd"cmTC_9d0e3.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue  -g -std=c90 D:\code\ray_tracer\CMakeFiles\feature_tests.c
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-std=c90” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_9d0e3.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_9d0e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_9d0e3.dll.a" /MACHINE:X86 /SAFESEH cmTC_9d0e3.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  cmTC_9d0e3.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_9d0e3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_9d0e3.dir\Debug\cmTC_9d0e3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9d0e3.dir\Debug\cmTC_9d0e3.tlog\cmTC_9d0e3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  cl : 命令行 warning D9002: 忽略未知选项“-std=c90” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_9d0e3.vcxproj]
+
+    12 个警告
+    0 个错误
+
+已用时间 00:00:01.50
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1ace6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:23。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1ace6.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1ace6.dir\Debug\cmTC_1ace6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1ace6.dir\Debug\cmTC_1ace6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ace6.dir\Debug\\" /Fd"cmTC_1ace6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ace6.dir\Debug\\" /Fd"cmTC_1ace6.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_1ace6.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_1ace6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_1ace6.dll.a" /MACHINE:X86 /SAFESEH cmTC_1ace6.dir\Debug\testCXXCompiler.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  cmTC_1ace6.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_1ace6.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1ace6.dir\Debug\cmTC_1ace6.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1ace6.dir\Debug\cmTC_1ace6.tlog\cmTC_1ace6.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_1ace6.vcxproj]
+
+    11 个警告
+    0 个错误
+
+已用时间 00:00:01.46
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aa6c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:25。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_aa6c5.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa6c5.dir\Debug\\" /Fd"cmTC_aa6c5.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa6c5.dir\Debug\\" /Fd"cmTC_aa6c5.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_aa6c5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_aa6c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_aa6c5.dll.a" /MACHINE:X86 /SAFESEH  -v cmTC_aa6c5.dir\Debug\CMakeCXXCompilerABI.obj
+LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]
+  cmTC_aa6c5.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_aa6c5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\cmTC_aa6c5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]
+
+    2 个警告
+    0 个错误
+
+已用时间 00:00:01.63
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_aa6c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"]
+  ignore line: [Microsoft (R) 生成引擎版本 14.0.25420.1]
+  ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+  ignore line: []
+  ignore line: [生成启动时间为 2018/1/29 11:12:25。]
+  ignore line: [节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标)。]
+  ignore line: [PrepareForBuild:]
+  ignore line: [  正在创建目录“cmTC_aa6c5.dir\Debug\”。]
+  ignore line: [  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。]
+  ignore line: [  正在创建目录“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\”。]
+  ignore line: [InitializeBuildStatus:]
+  ignore line: [  正在创建“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+  ignore line: [ClCompile:]
+  ignore line: [  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa6c5.dir\Debug\\" /Fd"cmTC_aa6c5.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版]
+  ignore line: [  版权所有(C) Microsoft Corporation。保留所有权利。]
+  ignore line: [  ]
+  ignore line: [  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa6c5.dir\Debug\\" /Fd"cmTC_aa6c5.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [  ]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]]
+  ignore line: [  CMakeCXXCompilerABI.cpp]
+  ignore line: [Link:]
+  ignore line: [  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_aa6c5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_aa6c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_aa6c5.dll.a" /MACHINE:X86 /SAFESEH  -v cmTC_aa6c5.dir\Debug\CMakeCXXCompilerABI.obj]
+  ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]]
+  ignore line: [  cmTC_aa6c5.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_aa6c5.exe]
+  ignore line: [FinalizeBuildStatus:]
+  ignore line: [  正在删除文件“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\unsuccessfulbuild”。]
+  ignore line: [  正在对“cmTC_aa6c5.dir\Debug\cmTC_aa6c5.tlog\cmTC_aa6c5.lastbuildstate”执行 Touch 任务。]
+  ignore line: [已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标)的操作。]
+  ignore line: []
+  ignore line: [已成功生成。]
+  ignore line: []
+  ignore line: [“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标) (1) ->]
+  ignore line: [(ClCompile 目标) -> ]
+  ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]]
+  ignore line: []
+  ignore line: []
+  ignore line: [“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj”(默认目标) (1) ->]
+  ignore line: [(Link 目标) -> ]
+  ignore line: [  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_aa6c5.vcxproj]]
+  ignore line: []
+  ignore line: [    2 个警告]
+  ignore line: [    0 个错误]
+  ignore line: []
+  ignore line: [已用时间 00:00:01.63]
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_79d30.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:27。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_79d30.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_79d30.dir\Debug\cmTC_79d30.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_79d30.dir\Debug\cmTC_79d30.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79d30.dir\Debug\\" /Fd"cmTC_79d30.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g -std=c++1z D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79d30.dir\Debug\\" /Fd"cmTC_79d30.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g -std=c++1z D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-std=c++1z” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_79d30.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_79d30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_79d30.dll.a" /MACHINE:X86 /SAFESEH cmTC_79d30.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  cmTC_79d30.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_79d30.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_79d30.dir\Debug\cmTC_79d30.tlog\unsuccessfulbuild”。
+  正在对“cmTC_79d30.dir\Debug\cmTC_79d30.tlog\cmTC_79d30.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  cl : 命令行 warning D9002: 忽略未知选项“-std=c++1z” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_79d30.vcxproj]
+
+    12 个警告
+    0 个错误
+
+已用时间 00:00:01.56
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a8395.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:30。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a8395.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a8395.dir\Debug\cmTC_a8395.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a8395.dir\Debug\cmTC_a8395.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8395.dir\Debug\\" /Fd"cmTC_a8395.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8395.dir\Debug\\" /Fd"cmTC_a8395.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_a8395.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_a8395.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_a8395.dll.a" /MACHINE:X86 /SAFESEH cmTC_a8395.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  cmTC_a8395.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_a8395.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a8395.dir\Debug\cmTC_a8395.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a8395.dir\Debug\cmTC_a8395.tlog\cmTC_a8395.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a8395.vcxproj]
+
+    11 个警告
+    0 个错误
+
+已用时间 00:00:01.52
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2ce8d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:32。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2ce8d.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2ce8d.dir\Debug\cmTC_2ce8d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2ce8d.dir\Debug\cmTC_2ce8d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ce8d.dir\Debug\\" /Fd"cmTC_2ce8d.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ce8d.dir\Debug\\" /Fd"cmTC_2ce8d.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_2ce8d.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_2ce8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_2ce8d.dll.a" /MACHINE:X86 /SAFESEH cmTC_2ce8d.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  cmTC_2ce8d.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_2ce8d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2ce8d.dir\Debug\cmTC_2ce8d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2ce8d.dir\Debug\cmTC_2ce8d.tlog\cmTC_2ce8d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_2ce8d.vcxproj]
+
+    11 个警告
+    0 个错误
+
+已用时间 00:00:01.43
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a90e5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/1/29 11:12:35。
+节点 1 上的项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a90e5.dir\Debug\”。
+  正在创建目录“D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a90e5.dir\Debug\cmTC_a90e5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a90e5.dir\Debug\cmTC_a90e5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a90e5.dir\Debug\\" /Fd"cmTC_a90e5.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /W1 /WX- /O2 /Oy- /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a90e5.dir\Debug\\" /Fd"cmTC_a90e5.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -g D:\code\ray_tracer\CMakeFiles\feature_tests.cxx
+  
+cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_a90e5.exe" /INCREMENTAL /NOLOGO "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomdlg32" "-ladvapi32" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/cmTC_a90e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/ray_tracer/CMakeFiles/CMakeTmp/Debug/libcmTC_a90e5.dll.a" /MACHINE:X86 /SAFESEH cmTC_a90e5.dir\Debug\feature_tests.obj
+LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  cmTC_a90e5.vcxproj -> D:\code\ray_tracer\CMakeFiles\CMakeTmp\Debug\cmTC_a90e5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a90e5.dir\Debug\cmTC_a90e5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a90e5.dir\Debug\cmTC_a90e5.tlog\cmTC_a90e5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  cl : 命令行 warning D9002: 忽略未知选项“-g” [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+
+
+“D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4044: 无法识别的选项“/lkernel32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luser32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lgdi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lwinspool”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lshell32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lole32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/loleaut32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/luuid”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/lcomdlg32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+  LINK : warning LNK4044: 无法识别的选项“/ladvapi32”；已忽略 [D:\code\ray_tracer\CMakeFiles\CMakeTmp\cmTC_a90e5.vcxproj]
+
+    11 个警告
+    0 个错误
+
+已用时间 00:00:01.43
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:0cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/code/ray_tracer/CMakeFiles/3.10.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/MinGW/bin/c++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/code/ray_tracer/CMakeFiles/3.10.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_06279/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_06279.dir/build.make CMakeFiles/cmTC_06279.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06279.dir/testCCompiler.c.obj
+C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_06279.dir/testCCompiler.c.obj   -c D:/code/ray_tracer/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_06279.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_06279.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_06279.dir/objects.a @CMakeFiles/cmTC_06279.dir/objects1.rsp
+C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_06279.dir/objects.a -Wl,--no-whole-archive  -o cmTC_06279.exe -Wl,--out-implib,libcmTC_06279.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_06279.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_7f33b/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_7f33b.dir/build.make CMakeFiles/cmTC_7f33b.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f33b.dir/CMakeCCompilerABI.c.obj
+C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_7f33b.dir/CMakeCCompilerABI.c.obj   -c "C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_7f33b.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_7f33b.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_7f33b.dir/objects.a @CMakeFiles/cmTC_7f33b.dir/objects1.rsp
+C:/MinGW/bin/gcc.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_7f33b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7f33b.exe -Wl,--out-implib,libcmTC_7f33b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:/MinGW/bin/gcc.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls : (reconfigured) ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 5.3.0 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/5.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f33b.exe' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\kevin\AppData\Local\Temp\ccjQ7FHL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_7f33b.exe c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../.. --whole-archive CMakeFiles/cmTC_7f33b.dir/objects.a --no-whole-archive --out-implib libcmTC_7f33b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtend.o
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_7f33b/fast"]
+  ignore line: [C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_7f33b.dir/build.make CMakeFiles/cmTC_7f33b.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7f33b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_7f33b.dir/CMakeCCompilerABI.c.obj   -c "C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_7f33b.exe]
+  ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_7f33b.dir/objects.a]
+  ignore line: [C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_7f33b.dir/objects.a @CMakeFiles/cmTC_7f33b.dir/objects1.rsp]
+  ignore line: [C:/MinGW/bin/gcc.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_7f33b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7f33b.exe -Wl,--out-implib,libcmTC_7f33b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/MinGW/bin/gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls : (reconfigured) ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 5.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/5.3.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f33b.exe' '-mtune=generic' '-march=i586']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\kevin\AppData\Local\Temp\ccjQ7FHL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_7f33b.exe c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../.. --whole-archive CMakeFiles/cmTC_7f33b.dir/objects.a --no-whole-archive --out-implib libcmTC_7f33b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\kevin\AppData\Local\Temp\ccjQ7FHL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7f33b.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_7f33b.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_7f33b.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0] ==> [C:/MinGW/lib/gcc/mingw32/5.3.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/MinGW/lib/gcc/mingw32/5.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_468cd/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_468cd.dir/build.make CMakeFiles/cmTC_468cd.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_468cd.dir/feature_tests.c.obj
+C:/MinGW/bin/gcc.exe   -std=c11 -o CMakeFiles/cmTC_468cd.dir/feature_tests.c.obj   -c D:/code/ray_tracer/CMakeFiles/feature_tests.c
+Linking C executable cmTC_468cd.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_468cd.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_468cd.dir/objects.a @CMakeFiles/cmTC_468cd.dir/objects1.rsp
+C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_468cd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_468cd.exe -Wl,--out-implib,libcmTC_468cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_468cd.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_263af/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_263af.dir/build.make CMakeFiles/cmTC_263af.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_263af.dir/feature_tests.c.obj
+C:/MinGW/bin/gcc.exe   -std=c99 -o CMakeFiles/cmTC_263af.dir/feature_tests.c.obj   -c D:/code/ray_tracer/CMakeFiles/feature_tests.c
+Linking C executable cmTC_263af.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_263af.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_263af.dir/objects.a @CMakeFiles/cmTC_263af.dir/objects1.rsp
+C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_263af.dir/objects.a -Wl,--no-whole-archive  -o cmTC_263af.exe -Wl,--out-implib,libcmTC_263af.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_263af.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_48d84/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_48d84.dir/build.make CMakeFiles/cmTC_48d84.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48d84.dir/feature_tests.c.obj
+C:/MinGW/bin/gcc.exe   -std=c90 -o CMakeFiles/cmTC_48d84.dir/feature_tests.c.obj   -c D:/code/ray_tracer/CMakeFiles/feature_tests.c
+Linking C executable cmTC_48d84.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_48d84.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_48d84.dir/objects.a @CMakeFiles/cmTC_48d84.dir/objects1.rsp
+C:/MinGW/bin/gcc.exe      -Wl,--whole-archive CMakeFiles/cmTC_48d84.dir/objects.a -Wl,--no-whole-archive  -o cmTC_48d84.exe -Wl,--out-implib,libcmTC_48d84.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_48d84.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_1e244/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_1e244.dir/build.make CMakeFiles/cmTC_1e244.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e244.dir/testCXXCompiler.cxx.obj
+C:/MinGW/bin/c++.exe     -o CMakeFiles/cmTC_1e244.dir/testCXXCompiler.cxx.obj -c D:/code/ray_tracer/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1e244.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_1e244.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_1e244.dir/objects.a @CMakeFiles/cmTC_1e244.dir/objects1.rsp
+C:/MinGW/bin/c++.exe      -Wl,--whole-archive CMakeFiles/cmTC_1e244.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1e244.exe -Wl,--out-implib,libcmTC_1e244.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1e244.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_95673/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_95673.dir/build.make CMakeFiles/cmTC_95673.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95673.dir/CMakeCXXCompilerABI.cpp.obj
+C:/MinGW/bin/c++.exe     -o CMakeFiles/cmTC_95673.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_95673.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_95673.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_95673.dir/objects.a @CMakeFiles/cmTC_95673.dir/objects1.rsp
+C:/MinGW/bin/c++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_95673.dir/objects.a -Wl,--no-whole-archive  -o cmTC_95673.exe -Wl,--out-implib,libcmTC_95673.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:/MinGW/bin/c++.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls : (reconfigured) ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 5.3.0 (GCC) 
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/5.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95673.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\kevin\AppData\Local\Temp\ccAYr0w4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_95673.exe c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../.. --whole-archive CMakeFiles/cmTC_95673.dir/objects.a --no-whole-archive --out-implib libcmTC_95673.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtend.o
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_95673/fast"]
+  ignore line: [C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_95673.dir/build.make CMakeFiles/cmTC_95673.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_95673.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:/MinGW/bin/c++.exe     -o CMakeFiles/cmTC_95673.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_95673.exe]
+  ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_95673.dir/objects.a]
+  ignore line: [C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_95673.dir/objects.a @CMakeFiles/cmTC_95673.dir/objects1.rsp]
+  ignore line: [C:/MinGW/bin/c++.exe     -v -Wl,--whole-archive CMakeFiles/cmTC_95673.dir/objects.a -Wl,--no-whole-archive  -o cmTC_95673.exe -Wl,--out-implib,libcmTC_95673.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/MinGW/bin/c++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls : (reconfigured) ../src/gcc-5.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 5.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/5.3.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95673.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\kevin\AppData\Local\Temp\ccAYr0w4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_95673.exe c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../.. --whole-archive CMakeFiles/cmTC_95673.dir/objects.a --no-whole-archive --out-implib libcmTC_95673.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/5.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\kevin\AppData\Local\Temp\ccAYr0w4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_95673.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_95673.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_95673.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0] ==> [C:/MinGW/lib/gcc/mingw32/5.3.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/MinGW/lib/gcc/mingw32/5.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_ac4af/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_ac4af.dir/build.make CMakeFiles/cmTC_ac4af.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac4af.dir/feature_tests.cxx.obj
+C:/MinGW/bin/c++.exe    -std=c++1z -o CMakeFiles/cmTC_ac4af.dir/feature_tests.cxx.obj -c D:/code/ray_tracer/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ac4af.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_ac4af.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_ac4af.dir/objects.a @CMakeFiles/cmTC_ac4af.dir/objects1.rsp
+C:/MinGW/bin/c++.exe      -Wl,--whole-archive CMakeFiles/cmTC_ac4af.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ac4af.exe -Wl,--out-implib,libcmTC_ac4af.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ac4af.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_fe43d/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_fe43d.dir/build.make CMakeFiles/cmTC_fe43d.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe43d.dir/feature_tests.cxx.obj
+C:/MinGW/bin/c++.exe    -std=c++14 -o CMakeFiles/cmTC_fe43d.dir/feature_tests.cxx.obj -c D:/code/ray_tracer/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fe43d.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_fe43d.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_fe43d.dir/objects.a @CMakeFiles/cmTC_fe43d.dir/objects1.rsp
+C:/MinGW/bin/c++.exe      -Wl,--whole-archive CMakeFiles/cmTC_fe43d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fe43d.exe -Wl,--out-implib,libcmTC_fe43d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_fe43d.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_62cd2/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_62cd2.dir/build.make CMakeFiles/cmTC_62cd2.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62cd2.dir/feature_tests.cxx.obj
+C:/MinGW/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTC_62cd2.dir/feature_tests.cxx.obj -c D:/code/ray_tracer/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62cd2.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_62cd2.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_62cd2.dir/objects.a @CMakeFiles/cmTC_62cd2.dir/objects1.rsp
+C:/MinGW/bin/c++.exe      -Wl,--whole-archive CMakeFiles/cmTC_62cd2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_62cd2.exe -Wl,--out-implib,libcmTC_62cd2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_62cd2.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: D:/code/ray_tracer/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/make.exe" "cmTC_69690/fast"
+C:/MinGW/bin/make.exe -f CMakeFiles/cmTC_69690.dir/build.make CMakeFiles/cmTC_69690.dir/build
+make.exe[1]: Entering directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_69690.dir/feature_tests.cxx.obj
+C:/MinGW/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTC_69690.dir/feature_tests.cxx.obj -c D:/code/ray_tracer/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_69690.exe
+"C:/Program Files/CMake/bin/cmake.exe" -E remove -f CMakeFiles/cmTC_69690.dir/objects.a
+C:/MinGW/bin/ar.exe cr CMakeFiles/cmTC_69690.dir/objects.a @CMakeFiles/cmTC_69690.dir/objects1.rsp
+C:/MinGW/bin/c++.exe      -Wl,--whole-archive CMakeFiles/cmTC_69690.dir/objects.a -Wl,--no-whole-archive  -o cmTC_69690.exe -Wl,--out-implib,libcmTC_69690.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_69690.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'D:/code/ray_tracer/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
