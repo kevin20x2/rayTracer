@@ -1,4 +1,4 @@
-# Install script for directory: C:/code/ray_tracer
+# Install script for directory: C:/code/rayTracer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

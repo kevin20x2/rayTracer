@@ -6,47 +6,47 @@
 
 #IncludeRegexTransform: 
 
-C:/code/ray_tracer/BaseObject.cpp
+C:/code/rayTracer/BaseObject.cpp
 BaseObject.hpp
-C:/code/ray_tracer/BaseObject.hpp
+C:/code/rayTracer/BaseObject.hpp
 algorithm
 -
 cmath
 -
 
-C:/code/ray_tracer/BaseObject.hpp
+C:/code/rayTracer/BaseObject.hpp
 cmath
 -
 algorithm
 -
 
-C:/code/ray_tracer/TracerScene.cpp
+C:/code/rayTracer/TracerScene.cpp
 TracerScene.hpp
-C:/code/ray_tracer/TracerScene.hpp
+C:/code/rayTracer/TracerScene.hpp
 vector
 -
 svpng.inc
-C:/code/ray_tracer/svpng.inc
+C:/code/rayTracer/svpng.inc
 
-C:/code/ray_tracer/TracerScene.hpp
+C:/code/rayTracer/TracerScene.hpp
 iostream
 -
 cstdio
 -
 BaseObject.hpp
-C:/code/ray_tracer/BaseObject.hpp
+C:/code/rayTracer/BaseObject.hpp
 vector
 -
 
-C:/code/ray_tracer/main.cpp
+C:/code/rayTracer/main.cpp
 iostream
 -
 TracerScene.hpp
-C:/code/ray_tracer/TracerScene.hpp
+C:/code/rayTracer/TracerScene.hpp
 BaseObject.hpp
-C:/code/ray_tracer/BaseObject.hpp
+C:/code/rayTracer/BaseObject.hpp
 
-C:/code/ray_tracer/svpng.inc
+C:/code/rayTracer/svpng.inc
 stdio.h
 -
 

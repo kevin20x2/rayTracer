@@ -13,23 +13,23 @@
         "name": "Debug",
         "projects": [
           {
-            "buildDirectory": "C:/code/ray_tracer/build",
+            "buildDirectory": "C:/code/rayTracer/build",
             "name": "RayTracer",
-            "sourceDirectory": "C:/code/ray_tracer",
+            "sourceDirectory": "C:/code/rayTracer",
             "targets": [
               {
                 "artifacts": [
-                  "C:/code/ray_tracer/build/RayTracer.exe",
-                  "C:/code/ray_tracer/build/libRayTracer.dll.a",
-                  "C:/code/ray_tracer/build/RayTracer.pdb"
+                  "C:/code/rayTracer/build/RayTracer.exe",
+                  "C:/code/rayTracer/build/libRayTracer.dll.a",
+                  "C:/code/rayTracer/build/RayTracer.pdb"
                 ],
-                "buildDirectory": "C:/code/ray_tracer/build",
+                "buildDirectory": "C:/code/rayTracer/build",
                 "fileGroups": [
                   {
                     "compileFlags": "-g  ",
                     "includePath": [
                       {
-                        "path": "C:/code/ray_tracer"
+                        "path": "C:/code/rayTracer"
                       }
                     ],
                     "isGenerated": false,
@@ -46,7 +46,7 @@
                 "linkLibraries": "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
                 "linkerLanguage": "CXX",
                 "name": "RayTracer",
-                "sourceDirectory": "C:/code/ray_tracer",
+                "sourceDirectory": "C:/code/rayTracer",
                 "type": "EXECUTABLE"
               }
             ]
@@ -54,7 +54,7 @@
         ]
       }
     ],
-    "cookie": "0.9615604343360051",
+    "cookie": "0.9044496737861185",
     "inReplyTo": "codemodel",
     "type": "reply"
   }

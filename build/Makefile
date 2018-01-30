@@ -48,10 +48,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/code/ray_tracer
+CMAKE_SOURCE_DIR = C:/code/rayTracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/code/ray_tracer/build
+CMAKE_BINARY_DIR = C:/code/rayTracer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/code/ray_tracer/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/code/ray_tracer/build/CMakeFiles C:/code/ray_tracer/build/CMakeFiles/progress.marks
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/code/ray_tracer/build/CMakeFiles 0
+	cd c:/code/raytracer/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/code/rayTracer/build/CMakeFiles C:/code/rayTracer/build/CMakeFiles/progress.marks
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/code/rayTracer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/Makefile2 clean
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/code/ray_tracer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/code/raytracer/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -129,7 +129,7 @@ BaseObject.obj: BaseObject.cpp.obj
 
 # target to build an object file
 BaseObject.cpp.obj:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/BaseObject.cpp.obj
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/BaseObject.cpp.obj
 .PHONY : BaseObject.cpp.obj
 
 BaseObject.i: BaseObject.cpp.i
@@ -138,7 +138,7 @@ BaseObject.i: BaseObject.cpp.i
 
 # target to preprocess a source file
 BaseObject.cpp.i:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/BaseObject.cpp.i
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/BaseObject.cpp.i
 .PHONY : BaseObject.cpp.i
 
 BaseObject.s: BaseObject.cpp.s
@@ -147,7 +147,7 @@ BaseObject.s: BaseObject.cpp.s
 
 # target to generate assembly for a file
 BaseObject.cpp.s:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/BaseObject.cpp.s
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/BaseObject.cpp.s
 .PHONY : BaseObject.cpp.s
 
 TracerScene.obj: TracerScene.cpp.obj
@@ -156,7 +156,7 @@ TracerScene.obj: TracerScene.cpp.obj
 
 # target to build an object file
 TracerScene.cpp.obj:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/TracerScene.cpp.obj
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/TracerScene.cpp.obj
 .PHONY : TracerScene.cpp.obj
 
 TracerScene.i: TracerScene.cpp.i
@@ -165,7 +165,7 @@ TracerScene.i: TracerScene.cpp.i
 
 # target to preprocess a source file
 TracerScene.cpp.i:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/TracerScene.cpp.i
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/TracerScene.cpp.i
 .PHONY : TracerScene.cpp.i
 
 TracerScene.s: TracerScene.cpp.s
@@ -174,7 +174,7 @@ TracerScene.s: TracerScene.cpp.s
 
 # target to generate assembly for a file
 TracerScene.cpp.s:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/TracerScene.cpp.s
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/TracerScene.cpp.s
 .PHONY : TracerScene.cpp.s
 
 main.obj: main.cpp.obj
@@ -183,7 +183,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.obj
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -192,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.i
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd c:/code/ray_tracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.s
+	cd c:/code/raytracer/build && $(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
