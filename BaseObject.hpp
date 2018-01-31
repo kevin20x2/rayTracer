@@ -31,6 +31,10 @@ struct Vector3{
     x(_x),y(_y),z(_z){}
     Vector3<Dtype>():
     x(0.0f),y(0.0f),z(0.0f){}
+    Dtype length()
+    {
+        return sqrt(x*x+y*y+z*z);
+    }
     Vector3<Dtype> normalize() const
     {
         Vector3<Dtype > ans(*this);
@@ -83,13 +87,14 @@ Vector3 <Dtype> operator - (const Vector3<Dtype> &a,const Vector3<Dtype> &b)
 template <typename Dtype>
 struct Surface{
     Surface<Dtype>(const Vector3<Dtype> & pos,const Vector3<Dtype> & normal):
-        _pos(pos),_normal(normal)
+        _pos(pos),_normal(normal),_specular_power(2.0f)
     {
     }
     Surface<Dtype>() {
     }
     Vector3 <Dtype> _pos;
     Vector3 <Dtype> _normal;
+    Dtype _specular_power;
     Color4 _color;
 
 };
@@ -124,11 +129,11 @@ class Sphere : public TracerObject<Dtype>{
       {
           TracerObject<Dtype>::_base_color= Color4(1.0f, 1.0f, 1.0f);
       }
-      Sphere<Dtype>(Dtype rad, Vector3<float > pos) :
+      Sphere<Dtype>(Dtype rad, Vector3<float > pos, Color4 color = Color4(1.0f,1.0f,1.0f)) :
       _radius(rad)
       {
           TracerObject<Dtype>::_pos = pos;
-          TracerObject<Dtype>::_base_color= Color4(1.0f, 1.0f, 1.0f);
+          TracerObject<Dtype>::_base_color= color;
       }
 
       bool intersection(const Vector3<Dtype> &origin,

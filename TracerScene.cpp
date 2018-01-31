@@ -54,7 +54,7 @@ Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>
     for(int i = 0;i<len;++i)
     {
         const Light * light_ptr = this->_scene->getLight(i);
-        float l = 0.000001f, r = floatInf;
+        float l = 1e-5, r = floatInf;
         Vector3 <float> inter_pos = sur._pos;
         Vector3 <float> ray_dir = light_ptr->getPos()- inter_pos;
         bool flag = false;
@@ -69,6 +69,13 @@ Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>
         }
         if(flag == false)
             ans = ans + this->_shading_model->Shading(*light_ptr, sur, view_pos);
+        else 
+        {
+            // 如果在阴影中则不考虑漫反射
+            Surface <float >tmp = sur;
+            tmp._color = Color4(0.0f,0.0f,0.0f);
+            ans = ans + this->_shading_model->Shading(*light_ptr,tmp,view_pos);
+        }
     }
     return ans;
 }
@@ -125,9 +132,9 @@ int TracerView::savePng(const char * file_name)
     unsigned char * img = new unsigned char[_image_height*_image_width*3];
     for(int i = 0 ;i < _image_height*_image_width;++i)
     {
-        img[i*3+ 0] = (unsigned char ) (this->_image_data[i].r*255.0f);
-        img[i*3+ 1] = (unsigned char ) (this->_image_data[i].g*255.0f);
-        img[i*3+ 2] = (unsigned char ) (this->_image_data[i].b*255.0f);
+        img[i*3+ 0] = (unsigned char ) (std::min(this->_image_data[i].r*255.0f,255.0f));
+        img[i*3+ 1] = (unsigned char ) (std::min(this->_image_data[i].g*255.0f,255.0f));
+        img[i*3+ 2] = (unsigned char ) (std::min(this->_image_data[i].b*255.0f,255.0f));
     }
     svpng(fopen(file_name,"wb"),_image_width,_image_height,img,0);
 
