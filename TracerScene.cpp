@@ -49,10 +49,26 @@ Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>
 {
     Color4 ans(0.0f,0.0f,0.0f);
     int len = this->_scene->getLightListLength();
+    int objlen = this->_scene->getObjectListLength();
+    Surface <float > tt;
     for(int i = 0;i<len;++i)
     {
         const Light * light_ptr = this->_scene->getLight(i);
-       ans = ans + this->_shading_model->Shading(*light_ptr,sur,view_pos);
+        float l = 0.000001f, r = floatInf;
+        Vector3 <float> inter_pos = sur._pos;
+        Vector3 <float> ray_dir = light_ptr->getPos()- inter_pos;
+        bool flag = false;
+        for(int j = 0;j<objlen;++j)
+        {
+            const TracerObject <float> * obj = this->_scene->getObject(j);
+            if(obj->intersection(inter_pos,ray_dir,tt,l,r))
+            {
+                flag = true;
+                break;  // 碰到障碍物直接 确定处于阴影之中，暂不考虑透明物体
+            }
+        }
+        if(flag == false)
+            ans = ans + this->_shading_model->Shading(*light_ptr, sur, view_pos);
     }
     return ans;
 }
