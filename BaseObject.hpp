@@ -3,6 +3,8 @@
 #include <cmath>
 #include <algorithm>
 
+const int _inf = 0x7f800000;
+const float floatInf = *(float*)(&_inf);
 struct Color4{
     Color4(float _r,float _g,float _b):
     r(_r),g(_g),b(_b),a(1.0f)
@@ -49,6 +51,12 @@ struct Vector3{
     Dtype x,y,z;
 };
 
+template <typename Dtype> 
+Vector3 <Dtype> cross(Vector3<Dtype>  a,Vector3 <Dtype>  b)
+{
+    return Vector3<Dtype>(a.y*b.z-a.z*b.y,a.z*b.x-a.x*b.z,a.x*b.y-a.y*b.x);
+}
+
 template <typename Dtype>
 Dtype operator * (const Vector3<Dtype> &a,const Vector3<Dtype> &b)
 {
@@ -93,7 +101,7 @@ class TracerObject {
     public:
     virtual bool intersection(const Vector3<Dtype> & origin ,
      const Vector3<Dtype> & dir ,
-     Surface<Dtype> & sur
+     Surface<Dtype> & sur,Dtype & t_0,Dtype &t_1
     ) const{};
     void setPos(const Vector3 <Dtype> & pos)
     {
@@ -116,10 +124,16 @@ class Sphere : public TracerObject<Dtype>{
       {
           TracerObject<Dtype>::_base_color= Color4(1.0f, 1.0f, 1.0f);
       }
+      Sphere<Dtype>(Dtype rad, Vector3<float > pos) :
+      _radius(rad)
+      {
+          TracerObject<Dtype>::_pos = pos;
+          TracerObject<Dtype>::_base_color= Color4(1.0f, 1.0f, 1.0f);
+      }
 
       bool intersection(const Vector3<Dtype> &origin,
                         const Vector3<Dtype> &dir,
-                        Surface<Dtype> &sur) const
+                        Surface<Dtype> &sur ,Dtype & l,Dtype & r) const
                         {
     Vector3 <Dtype > e_c = origin - TracerObject<Dtype>::_pos;
     Dtype delta = (dir * e_c)*(dir * e_c)-(dir*dir)*(e_c*e_c - _radius*_radius);
@@ -130,14 +144,14 @@ class Sphere : public TracerObject<Dtype>{
     Dtype t_1 = (-1.0f* dir*(e_c) + sqrt(delta))/(dir*dir);
     Dtype t_2 = (-1.0f* dir*(e_c) - sqrt(delta))/(dir*dir);
     Dtype mint = std::min(t_1,t_2);
-    if( std::max(t_1,t_2) < 1.0f)
+    if( std::max(t_1,t_2) < l)
         return false;
+    if(mint > r) return false;
     sur._pos = origin + mint * dir;
     sur._normal = sur._pos - this->_pos;
     sur._color = this->_base_color;
+    r = mint;
     return true;
-
-
 }
     protected:
     Dtype _radius;

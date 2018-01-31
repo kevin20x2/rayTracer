@@ -28,6 +28,7 @@ class TracerView
   public:
     TracerView(const int height,const int width,const float focal_length);
     void setScene(TracerScene * scene);
+    void setRange(float l,float r,float up,float down);
     void setShadingModel(BaseShadingModel* model);
     void render();
     int savePng(const char * file_name);

@@ -9,12 +9,12 @@ _focal_length(focal_length),_left(-0.5f),_right(0.5f),
 _upper(0.5f),_bottom(-0.5f),_shading_model(nullptr)
 {
     _pos = Vector3<float>(0,0,1.0f);
-    _ray_dir.clear();
     init_ray_dir();
 }
 
 void TracerView::init_ray_dir() // init ray direction
 {
+    _ray_dir.clear();
     for(int i = 0;i<_image_height;++i)
     {
         float dy = _bottom + (_upper - _bottom)*(i+0.5f) /_image_height;
@@ -76,19 +76,24 @@ void TracerView::render()
         {
             Vector3<float > & dir = _ray_dir[i*_image_width+j];
             int len = this->_scene->getObjectListLength();
+            float l = 1.0f;
+            float r = floatInf;
+            Surface <float>ans ;
+            bool intersect_flag = false;
             for(int t = 0 ; t<len;++t)
             {
                 const TracerObject <float>* obj = this->_scene->getObject(t);
                 Surface <float> res ;
-                if(obj->intersection(view_pos,dir,res))
+                if(obj->intersection(view_pos,dir,res,l,r))
                 {
                   //  LOG("intersect in %d %d \n",i,j);
                     //todo 
-                    _image_data[i*_image_width + j] = compute_pixel(res,view_pos);
+                    ans = res;
+                    intersect_flag = true;
                 }
-                //LOG("not intersect in %d %d \n",i,j);
             }
-
+            if(intersect_flag == true)
+                _image_data[i * _image_width + j] = compute_pixel(ans, view_pos);
         }
 
     }
@@ -110,6 +115,14 @@ int TracerView::savePng(const char * file_name)
     }
     svpng(fopen(file_name,"wb"),_image_width,_image_height,img,0);
 
+}
+void TracerView::setRange(float up, float down, float l, float r)
+{
+    this->_left = l;
+    this->_right = r;
+    this->_upper = up;
+    this->_bottom = down;
+    init_ray_dir();
 }
 
 int TracerScene::addObject(TracerObject <float>* obj)
