@@ -16,7 +16,7 @@ class Triangle : public TracerObject <Dtype>
           this->a = a_ - this->_pos;
           this->b = b_ - this->_pos;
           this->c = c_ - this->_pos;
-          this->_base_color = Color4(1.0f,1.0f,1.0f);
+          this->_mat._color = Color4(1.0f,1.0f,1.0f);
       }
       bool intersection(const Vector3<Dtype> &origin,
                         const Vector3<Dtype> &dir,
@@ -51,7 +51,7 @@ class Triangle : public TracerObject <Dtype>
 
           sur._pos = origin + t_ * dir;
           sur._normal = cross((_b-_a),(_c-_a));
-          sur._color = this->_base_color;
+          sur._mat = this->_mat;
           r = t_;
           return true;
       }

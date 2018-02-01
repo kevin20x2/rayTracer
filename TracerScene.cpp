@@ -11,7 +11,10 @@ _upper(0.5f),_bottom(-0.5f),_shading_model(nullptr)
     _pos = Vector3<float>(0,0,1.0f);
     init_ray_dir();
 }
-
+void TracerView::setPos(Vector3<float > pos)
+{
+    _pos = pos;
+}
 void TracerView::init_ray_dir() // init ray direction
 {
     _ray_dir.clear();
@@ -45,20 +48,24 @@ void TracerView::setShadingModel(BaseShadingModel *model)
     this->_shading_model = model;
 
 }
-Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>& view_pos)
+Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>& view_pos,int depth)
 {
     Color4 ans(0.0f,0.0f,0.0f);
+    if( depth == 0)
+    {
+        return ans;
+    }
     int len = this->_scene->getLightListLength();
     int objlen = this->_scene->getObjectListLength();
     Surface <float > tt;
-    for(int i = 0;i<len;++i)
+    for(int i = 0;i<len;++i) // 枚举光源
     {
         const Light * light_ptr = this->_scene->getLight(i);
         float l = 1e-5, r = floatInf;
         Vector3 <float> inter_pos = sur._pos;
         Vector3 <float> ray_dir = light_ptr->getPos()- inter_pos;
         bool flag = false;
-        for(int j = 0;j<objlen;++j)
+        for(int j = 0;j<objlen;++j)  //算影子枚举物体
         {
             const TracerObject <float> * obj = this->_scene->getObject(j);
             if(obj->intersection(inter_pos,ray_dir,tt,l,r))
@@ -73,10 +80,31 @@ Color4 TracerView::compute_pixel(const Surface<float> & sur,const Vector3<float>
         {
             // 如果在阴影中则不考虑漫反射
             Surface <float >tmp = sur;
-            tmp._color = Color4(0.0f,0.0f,0.0f);
+            tmp._mat._color = Color4(0.0f,0.0f,0.0f);
             ans = ans + this->_shading_model->Shading(*light_ptr,tmp,view_pos);
         }
     }
+
+    Vector3 <float > n = sur._normal.normalize();
+    Vector3 <float > d = (sur._pos - view_pos).normalize();
+    Vector3 <float > r = d - 2*(d*n)*n;
+    Surface <float > res ;
+    float left = 1e-4; 
+    float right = floatInf;
+    bool intersect_flag = false;
+    for(int i = 0;i<objlen;++i)
+    {
+        const TracerObject<float > *obj = this->_scene->getObject(i);
+        if(obj->intersection(sur._pos,r,res,left,right))
+        {
+            intersect_flag = true;
+        }
+    }
+    if(intersect_flag)
+    {
+        ans = ans +  compute_pixel(res,sur._pos,depth-1)*sur._mat._reflection_rate;
+    }
+
     return ans;
 }
 void TracerView::render()
@@ -115,8 +143,10 @@ void TracerView::render()
                     intersect_flag = true;
                 }
             }
+            // 反射的深度为2
             if(intersect_flag == true)
-                _image_data[i * _image_width + j] = compute_pixel(ans, view_pos);
+                _image_data[i * _image_width + j] = compute_pixel(ans, view_pos,2);
+
         }
 
     }

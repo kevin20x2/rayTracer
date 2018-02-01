@@ -14,8 +14,8 @@ Color4 LambertianShading:: Shading(const Light &light, const Surface<float> &sur
        Vector3<float> h = (v+l).normalize();
        float len = (light.getPos() - sur._pos).length();
        float I = intensity/(len*len);
-       return light.getColor()*0.1f +sur._color *I* std::max(0.0f, l * n) + light.getColor()*I*pow(
+       return light.getColor()*0.1f +sur._mat._color *I* std::max(0.0f, l * n) + light.getColor()*I*pow(
            std::max(0.0f,n*h)
-           ,sur._specular_power);
+           ,sur._mat._specular_power);
     }
 }

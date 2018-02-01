@@ -2,29 +2,10 @@
 #define BASE_OBJECT_H 
 #include <cmath>
 #include <algorithm>
+#include "Material.hpp"
 
 const int _inf = 0x7f800000;
 const float floatInf = *(float*)(&_inf);
-struct Color4{
-    Color4(float _r,float _g,float _b):
-    r(_r),g(_g),b(_b),a(1.0f)
-    {}
-    Color4():
-    r(0.0f),g(0.0f),b(0.0f),a(1.0f){}
-    Color4 operator*(const float k){
-        return Color4(r*k,g*k,b*k);
-    }
-    Color4 operator*(const float k) const 
-    {
-        return Color4(r*k,g*k,b*k);
-    }
-    Color4 operator+(const Color4 & o)
-    {
-        return Color4(r+o.r,g+o.g,b+o.b);
-    }
-    float r,g,b,a;
-};
-
 template <typename Dtype>
 struct Vector3{
     Vector3<Dtype>(Dtype _x,Dtype _y,Dtype _z):
@@ -87,15 +68,16 @@ Vector3 <Dtype> operator - (const Vector3<Dtype> &a,const Vector3<Dtype> &b)
 template <typename Dtype>
 struct Surface{
     Surface<Dtype>(const Vector3<Dtype> & pos,const Vector3<Dtype> & normal):
-        _pos(pos),_normal(normal),_specular_power(2.0f)
+        _pos(pos),_normal(normal)
     {
     }
     Surface<Dtype>() {
     }
     Vector3 <Dtype> _pos;
     Vector3 <Dtype> _normal;
-    Dtype _specular_power;
-    Color4 _color;
+    Material _mat;
+   // Dtype _specular_power;
+    //Color4 _color;
 
 };
 
@@ -114,11 +96,12 @@ class TracerObject {
     }
     Color4 getBaseColor() const
     {
-        return _base_color;
+        return _mat._color;
     }
     protected:
     Vector3 <Dtype> _pos;
-    Color4 _base_color;
+    Material _mat;
+    //Color4 _base_color;
 
 };
 
@@ -127,13 +110,13 @@ class Sphere : public TracerObject<Dtype>{
     public:
       Sphere<Dtype>(Dtype rad) : _radius(rad)
       {
-          TracerObject<Dtype>::_base_color= Color4(1.0f, 1.0f, 1.0f);
+          //TracerObject<Dtype>::_base_color= Color4(1.0f, 1.0f, 1.0f);
       }
       Sphere<Dtype>(Dtype rad, Vector3<float > pos, Color4 color = Color4(1.0f,1.0f,1.0f)) :
       _radius(rad)
       {
           TracerObject<Dtype>::_pos = pos;
-          TracerObject<Dtype>::_base_color= color;
+          TracerObject<Dtype>::_mat._color= color;
       }
 
       bool intersection(const Vector3<Dtype> &origin,
@@ -154,7 +137,7 @@ class Sphere : public TracerObject<Dtype>{
     if(mint > r) return false;
     sur._pos = origin + mint * dir;
     sur._normal = sur._pos - this->_pos;
-    sur._color = this->_base_color;
+    sur._mat = this->_mat;
     r = mint;
     return true;
 }

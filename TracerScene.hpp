@@ -30,11 +30,12 @@ class TracerView
     void setScene(TracerScene * scene);
     void setRange(float l,float r,float up,float down);
     void setShadingModel(BaseShadingModel* model);
+    void setPos(Vector3 <float> pos);
     void render();
     int savePng(const char * file_name);
   private:
     void init_ray_dir();
-    Color4 compute_pixel(const Surface<float > & sur,const Vector3<float>& view_pos);
+    Color4 compute_pixel(const Surface<float > & sur,const Vector3<float>& view_pos,int depth);
     float _focal_length;
     int _image_height,_image_width;
     float _left,_right,_upper,_bottom;
