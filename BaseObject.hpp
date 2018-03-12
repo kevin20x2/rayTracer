@@ -147,5 +147,10 @@ class Sphere : public TracerObject<Dtype>{
 
 
 };
-
+template <typename Dtype>
+struct Vector2 {
+    int x,y;
+};
+typedef Vector3<float> Vector3f;
+typedef Vector2<float > Vector2f;
 #endif

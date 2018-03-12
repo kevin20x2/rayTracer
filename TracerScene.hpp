@@ -31,6 +31,7 @@ class TracerView
     void setRange(float l,float r,float up,float down);
     void setShadingModel(BaseShadingModel* model);
     void setPos(Vector3 <float> pos);
+    void setReflectDepth(int depth) {this->_reflect_depth = depth;}
     void render();
     int savePng(const char * file_name);
   private:
@@ -44,6 +45,7 @@ class TracerView
     std::vector <Vector3 <float> > _ray_dir;
     Color4 * _image_data;
     BaseShadingModel * _shading_model;
+    int _reflect_depth;
 };
 
 #endif

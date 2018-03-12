@@ -6,7 +6,7 @@ TracerView::TracerView(const int height ,const int width,
 const float focal_length):
 _image_height(height),_image_width(width),_scene(nullptr),_image_data(nullptr),
 _focal_length(focal_length),_left(-0.5f),_right(0.5f),
-_upper(0.5f),_bottom(-0.5f),_shading_model(nullptr)
+_upper(0.5f),_bottom(-0.5f),_shading_model(nullptr),_reflect_depth(2)
 {
     _pos = Vector3<float>(0,0,1.0f);
     init_ray_dir();
